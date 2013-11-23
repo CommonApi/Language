@@ -1,0 +1,17 @@
+{
+    "name": "api/language",
+    "description": "Common API for Language",
+    "keywords": ["api", "CommonApi", "language"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AmyStephen",
+            "homepage": "http://Molajo.org/"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Api\\Language\\": ""
+        }
+    }
+}
