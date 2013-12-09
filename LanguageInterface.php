@@ -14,7 +14,7 @@ namespace CommonApi\Language;
  * @package    Language
  * @license    http://www.opensource.org/licenses/mit-license.html MIT License
  * @copyright  2013 Common Api. All rights reserved.
- * @since      1.0
+ * @since      0.1
  */
 interface LanguageInterface
 {
@@ -28,7 +28,7 @@ interface LanguageInterface
      * @param   null|string $default
      *
      * @return  int  $this
-     * @since   1.0
+     * @since   0.1
      */
     public function get($key = null, $default = null);
 
@@ -43,7 +43,7 @@ interface LanguageInterface
      * @param   $string
      *
      * @return  string
-     * @since   1.0
+     * @since   0.1
      */
     public function translate($string);
 
@@ -53,7 +53,7 @@ interface LanguageInterface
      * @param   $string
      *
      * @return  $this
-     * @since   1.0
+     * @since   0.1
      */
     public function setUntranslatedString($string);
 }
