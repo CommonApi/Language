@@ -24,7 +24,7 @@ interface DatabaseModelInterface
      * @param   string $string
      *
      * @return  bool
-     * @since   0.1
+     * @since   1.0
      */
     public function setUntranslatedString($string);
 }

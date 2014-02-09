@@ -28,7 +28,7 @@ interface LanguageInterface
      * @param   null|string $default
      *
      * @return  int  $this
-     * @since   0.1
+     * @since   1.0
      */
     public function get($key = null, $default = null);
 
@@ -43,7 +43,7 @@ interface LanguageInterface
      * @param   $string
      *
      * @return  string
-     * @since   0.1
+     * @since   1.0
      */
     public function translate($string);
 
@@ -53,7 +53,7 @@ interface LanguageInterface
      * @param   $string
      *
      * @return  $this
-     * @since   0.1
+     * @since   1.0
      */
     public function setUntranslatedString($string);
 }
