@@ -1,6 +1,6 @@
 <?php
 /**
- * Language Interface
+ * Translate Interface
  *
  * @package    Language
  * @copyright  2014 Amy Stephen. All rights reserved.
@@ -9,26 +9,22 @@
 namespace CommonApi\Language;
 
 /**
- * Language Interface
+ * Translate Interface
  *
- * @package    Language
+ * @package    Translate
  * @license    http://www.opensource.org/licenses/mit-license.html MIT License
  * @copyright  2014 Amy Stephen. All rights reserved.
  * @since      1.0
  */
-interface LanguageInterface
+interface TranslateInterface
 {
     /**
-     * Get Language Properties
+     * Translate String
      *
-     * Specify null for key to have all language properties for current language
-     * returned aas an object
+     * @param   $string
      *
-     * @param   null|string $key
-     * @param   null|string $default
-     *
-     * @return  int  $this
+     * @return  string
      * @since   1.0
      */
-    public function get($key = null, $default = null);
+    public function translate($string);
 }
