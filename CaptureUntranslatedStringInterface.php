@@ -16,7 +16,7 @@ namespace CommonApi\Language;
  * @copyright  2014 Amy Stephen. All rights reserved.
  * @since      1.0
  */
-interface CaptureUntranslatedString
+interface CaptureUntranslatedStringInterface
 {
     /**
      * Save untranslated strings for localization
