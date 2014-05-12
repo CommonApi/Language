@@ -26,5 +26,5 @@ interface TranslateInterface
      * @return  string
      * @since   1.0
      */
-    public function translate($string);
+    public function translateString($string);
 }
