@@ -25,7 +25,7 @@ interface LanguageInterface
      *
      * @param   null|string $key
      *
-     * @return  int  $this
+     * @return  mixed
      * @since   1.0
      */
     public function get($key = null);
