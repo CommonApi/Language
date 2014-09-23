@@ -24,7 +24,7 @@ interface CaptureUntranslatedStringInterface
      * @param   string $string
      *
      * @return  bool
-     * @since   1.0
+     * @since   1.0.0
      */
     public function setString($string);
 }

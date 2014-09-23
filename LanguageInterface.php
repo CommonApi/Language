@@ -21,14 +21,12 @@ interface LanguageInterface
     /**
      * Get Language Properties
      *
-     * Specify null for key to have all language properties for current language
-     * returned aas an object
+     * Specify null for key to have all language properties for current language returned as object
      *
      * @param   null|string $key
-     * @param   null|string $default
      *
-     * @return  int  $this
-     * @since   1.0
+     * @return  mixed
+     * @since   1.0.0
      */
-    public function get($key = null, $default = null);
+    public function get($key = null);
 }
